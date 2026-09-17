@@ -1,0 +1,1666 @@
+{
+  "info": {
+    "_postman_id": "d8d1d83f-d65d-479a-879c-8bfad4356505",
+    "name": "Assignment6",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "_exporter_id": "57139575"
+  },
+  "item": [
+    {
+      "name": "creatCollectionBooks",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:3000/collection/books",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "3000",
+          "path": [
+            "collection",
+            "books"
+          ]
+        }
+      },
+      "response": [
+        {
+          "name": "creatCollectionBooks",
+          "originalRequest": {
+            "method": "POST",
+            "header": [],
+            "url": {
+              "raw": "http://localhost:3000/collection/books",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "3000",
+              "path": [
+                "collection",
+                "books"
+              ]
+            }
+          },
+          "status": "Created",
+          "code": 201,
+          "_postman_previewlanguage": null,
+          "header": [
+            {
+              "key": "X-Powered-By",
+              "value": "Express"
+            },
+            {
+              "key": "Content-Type",
+              "value": "application/json; charset=utf-8"
+            },
+            {
+              "key": "Content-Length",
+              "value": "51"
+            },
+            {
+              "key": "ETag",
+              "value": "W/\"33-AnpktG8POOcEeZJUFw/W+l4/fzk\""
+            },
+            {
+              "key": "Date",
+              "value": "Mon, 14 Sep 2026 19:03:43 GMT"
+            },
+            {
+              "key": "Connection",
+              "value": "keep-alive"
+            },
+            {
+              "key": "Keep-Alive",
+              "value": "timeout=5"
+            }
+          ],
+          "cookie": [],
+          "body": "{\n    \"message\": \"Books collection created successfully\"\n}"
+        }
+      ]
+    },
+    {
+      "name": "createAuthors",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:3000/collection/authors",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "3000",
+          "path": [
+            "collection",
+            "authors"
+          ]
+        }
+      },
+      "response": [
+        {
+          "name": "createAuthors",
+          "originalRequest": {
+            "method": "POST",
+            "header": [],
+            "url": {
+              "raw": "http://localhost:3000/collection/authors",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "3000",
+              "path": [
+                "collection",
+                "authors"
+              ]
+            }
+          },
+          "status": "Created",
+          "code": 201,
+          "_postman_previewlanguage": null,
+          "header": [
+            {
+              "key": "X-Powered-By",
+              "value": "Express"
+            },
+            {
+              "key": "Content-Type",
+              "value": "application/json; charset=utf-8"
+            },
+            {
+              "key": "Content-Length",
+              "value": "124"
+            },
+            {
+              "key": "ETag",
+              "value": "W/\"7c-3LewmoEMgbIWEJYjGogKCrh17vs\""
+            },
+            {
+              "key": "Date",
+              "value": "Tue, 15 Sep 2026 01:04:10 GMT"
+            },
+            {
+              "key": "Connection",
+              "value": "keep-alive"
+            },
+            {
+              "key": "Keep-Alive",
+              "value": "timeout=5"
+            }
+          ],
+          "cookie": [],
+          "body": "{\n    \"message\": \"Authors collection created successfully\",\n    \"result\": {\n        \"acknowledged\": true,\n        \"insertedId\": \"6aa8998ab05cb49cc4ca5113\"\n    }\n}"
+        }
+      ]
+    },
+    {
+      "name": "CappedLogs",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:3000/collection/logs/capped",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "3000",
+          "path": [
+            "collection",
+            "logs",
+            "capped"
+          ]
+        }
+      },
+      "response": [
+        {
+          "name": "CappedLogs",
+          "originalRequest": {
+            "method": "POST",
+            "header": [],
+            "url": {
+              "raw": "http://localhost:3000/collection/logs/capped",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "3000",
+              "path": [
+                "collection",
+                "logs",
+                "capped"
+              ]
+            }
+          },
+          "status": "Created",
+          "code": 201,
+          "_postman_previewlanguage": null,
+          "header": [
+            {
+              "key": "X-Powered-By",
+              "value": "Express"
+            },
+            {
+              "key": "Content-Type",
+              "value": "application/json; charset=utf-8"
+            },
+            {
+              "key": "Content-Length",
+              "value": "56"
+            },
+            {
+              "key": "ETag",
+              "value": "W/\"38-WjUzV8pHPABNiWrnox4j7qTeECg\""
+            },
+            {
+              "key": "Date",
+              "value": "Tue, 15 Sep 2026 01:32:32 GMT"
+            },
+            {
+              "key": "Connection",
+              "value": "keep-alive"
+            },
+            {
+              "key": "Keep-Alive",
+              "value": "timeout=5"
+            }
+          ],
+          "cookie": [],
+          "body": "{\n    \"message\": \"CappedLogs collection created successfully\"\n}"
+        }
+      ]
+    },
+    {
+      "name": "createIndexBooks",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:3000/collection/books/index",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "3000",
+          "path": [
+            "collection",
+            "books",
+            "index"
+          ]
+        }
+      },
+      "response": [
+        {
+          "name": "createIndexBooks",
+          "originalRequest": {
+            "method": "POST",
+            "header": [],
+            "url": {
+              "raw": "http://localhost:3000/collection/books/index",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "3000",
+              "path": [
+                "collection",
+                "books",
+                "index"
+              ]
+            }
+          },
+          "status": "Created",
+          "code": 201,
+          "_postman_previewlanguage": null,
+          "header": [
+            {
+              "key": "X-Powered-By",
+              "value": "Express"
+            },
+            {
+              "key": "Content-Type",
+              "value": "application/json; charset=utf-8"
+            },
+            {
+              "key": "Content-Length",
+              "value": "46"
+            },
+            {
+              "key": "ETag",
+              "value": "W/\"2e-Zs5Q4AN+MsnMRJ94kow1tBpg+PQ\""
+            },
+            {
+              "key": "Date",
+              "value": "Tue, 15 Sep 2026 05:30:28 GMT"
+            },
+            {
+              "key": "Connection",
+              "value": "keep-alive"
+            },
+            {
+              "key": "Keep-Alive",
+              "value": "timeout=5"
+            }
+          ],
+          "cookie": [],
+          "body": "{\n    \"message\": \"Index Books created successfully\"\n}"
+        }
+      ]
+    },
+    {
+      "name": "BookAdd",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n    \"title\": \"Book1\",\r\n    \"author\": \"Ali\",\r\n    \"year\": 1937,\r\n    \"genres\": [\r\n        \"Fantasy\",\r\n        \"Adventure\"\r\n    ]\r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://localhost:3000/books/",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "3000",
+          "path": [
+            "books",
+            ""
+          ]
+        }
+      },
+      "response": [
+        {
+          "name": "BookAdd",
+          "originalRequest": {
+            "method": "POST",
+            "header": [],
+            "body": {
+              "mode": "raw",
+              "raw": "{\r\n    \"title\": \"Book1\",\r\n    \"author\": \"Ali\",\r\n    \"year\": 1937,\r\n    \"genres\": [\r\n        \"Fantasy\",\r\n        \"Adventure\"\r\n    ]\r\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://localhost:3000/books/",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "3000",
+              "path": [
+                "books",
+                ""
+              ]
+            }
+          },
+          "status": "Created",
+          "code": 201,
+          "_postman_previewlanguage": null,
+          "header": [
+            {
+              "key": "X-Powered-By",
+              "value": "Express"
+            },
+            {
+              "key": "Content-Type",
+              "value": "application/json; charset=utf-8"
+            },
+            {
+              "key": "Content-Length",
+              "value": "108"
+            },
+            {
+              "key": "ETag",
+              "value": "W/\"6c-BLC4yIkvznMCJsDG4FK1wLEUWoU\""
+            },
+            {
+              "key": "Date",
+              "value": "Tue, 15 Sep 2026 06:06:55 GMT"
+            },
+            {
+              "key": "Connection",
+              "value": "keep-alive"
+            },
+            {
+              "key": "Keep-Alive",
+              "value": "timeout=5"
+            }
+          ],
+          "cookie": [],
+          "body": "{\n    \"message\": \"Book added successfully\",\n    \"result\": {\n        \"acknowledged\": true,\n        \"insertedId\": \"6aa8e07fedc3b591947079ec\"\n    }\n}"
+        }
+      ]
+    },
+    {
+      "name": "BooksADD",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "[\r\n  {\r\n    \"title\": \"Book 1\",\r\n    \"author\": \"Author 1\",\r\n    \"year\": 2005,\r\n    \"genres\": [\"Science Fiction\"]\r\n  },\r\n  {\r\n    \"title\": \"Book 2\",\r\n    \"author\": \"Author 2\",\r\n    \"year\": 1995,\r\n    \"genres\": [\"Drama\"]\r\n  },\r\n  {\r\n    \"title\": \"Book 3\",\r\n    \"author\": \"Author 3\",\r\n    \"year\": 2015,\r\n    \"genres\": [\"Horror\"]\r\n  }\r\n]",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://localhost:3000/books/batch",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "3000",
+          "path": [
+            "books",
+            "batch"
+          ]
+        }
+      },
+      "response": [
+        {
+          "name": "BooksADD",
+          "originalRequest": {
+            "method": "POST",
+            "header": [],
+            "body": {
+              "mode": "raw",
+              "raw": "[\r\n  {\r\n    \"title\": \"Book 1\",\r\n    \"author\": \"Author 1\",\r\n    \"year\": 2005,\r\n    \"genres\": [\"Science Fiction\"]\r\n  },\r\n  {\r\n    \"title\": \"Book 2\",\r\n    \"author\": \"Author 2\",\r\n    \"year\": 1995,\r\n    \"genres\": [\"Drama\"]\r\n  },\r\n  {\r\n    \"title\": \"Book 3\",\r\n    \"author\": \"Author 3\",\r\n    \"year\": 2015,\r\n    \"genres\": [\"Horror\"]\r\n  }\r\n]",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://localhost:3000/books/batch",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "3000",
+              "path": [
+                "books",
+                "batch"
+              ]
+            }
+          },
+          "status": "Created",
+          "code": 201,
+          "_postman_previewlanguage": null,
+          "header": [
+            {
+              "key": "X-Powered-By",
+              "value": "Express"
+            },
+            {
+              "key": "Content-Type",
+              "value": "application/json; charset=utf-8"
+            },
+            {
+              "key": "Content-Length",
+              "value": "196"
+            },
+            {
+              "key": "ETag",
+              "value": "W/\"c4-LIRUXm0FZnEBdO9kMuPP9/7+cjk\""
+            },
+            {
+              "key": "Date",
+              "value": "Tue, 15 Sep 2026 06:20:59 GMT"
+            },
+            {
+              "key": "Connection",
+              "value": "keep-alive"
+            },
+            {
+              "key": "Keep-Alive",
+              "value": "timeout=5"
+            }
+          ],
+          "cookie": [],
+          "body": "{\n    \"message\": \"Books added successfully\",\n    \"result\": {\n        \"acknowledged\": true,\n        \"insertedCount\": 3,\n        \"insertedIds\": {\n            \"0\": \"6aa8e3cb1f03bc170b72e9f8\",\n            \"1\": \"6aa8e3cb1f03bc170b72e9f9\",\n            \"2\": \"6aa8e3cb1f03bc170b72e9fa\"\n        }\n    }\n}"
+        }
+      ]
+    },
+    {
+      "name": "logAdd",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n  \"book_id\":\"6aa8e3cb1f03bc170b72e9f8\",\r\n  \"action\": \"borrowed\"\r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://localhost:3000/logs/",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "3000",
+          "path": [
+            "logs",
+            ""
+          ]
+        }
+      },
+      "response": [
+        {
+          "name": "logAdd",
+          "originalRequest": {
+            "method": "POST",
+            "header": [],
+            "body": {
+              "mode": "raw",
+              "raw": "{\r\n  \"book_id\":\"6aa8e3cb1f03bc170b72e9f8\",\r\n  \"action\": \"borrowed\"\r\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://localhost:3000/logs/",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "3000",
+              "path": [
+                "logs",
+                ""
+              ]
+            }
+          },
+          "status": "Created",
+          "code": 201,
+          "_postman_previewlanguage": null,
+          "header": [
+            {
+              "key": "X-Powered-By",
+              "value": "Express"
+            },
+            {
+              "key": "Content-Type",
+              "value": "application/json; charset=utf-8"
+            },
+            {
+              "key": "Content-Length",
+              "value": "72"
+            },
+            {
+              "key": "ETag",
+              "value": "W/\"48-n0CQMoMOLgaQD9XwA+dYZyxB7GE\""
+            },
+            {
+              "key": "Date",
+              "value": "Wed, 16 Sep 2026 01:01:56 GMT"
+            },
+            {
+              "key": "Connection",
+              "value": "keep-alive"
+            },
+            {
+              "key": "Keep-Alive",
+              "value": "timeout=5"
+            }
+          ],
+          "cookie": [],
+          "body": "{\n    \"result\": {\n        \"acknowledged\": true,\n        \"insertedId\": \"6aa9ea84a2dfe5dacbd50097\"\n    }\n}"
+        }
+      ]
+    },
+    {
+      "name": "Update Book",
+      "request": {
+        "method": "PATCH",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n \r\n    \"year\": 2022\r\n    \r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://localhost:3000/books/Future",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "3000",
+          "path": [
+            "books",
+            "Future"
+          ]
+        }
+      },
+      "response": [
+        {
+          "name": "Update Book",
+          "originalRequest": {
+            "method": "PATCH",
+            "header": [],
+            "body": {
+              "mode": "raw",
+              "raw": "{\r\n \r\n    \"year\": 2022\r\n    \r\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://localhost:3000/books/Future",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "3000",
+              "path": [
+                "books",
+                "Future"
+              ]
+            }
+          },
+          "status": "Created",
+          "code": 201,
+          "_postman_previewlanguage": null,
+          "header": [
+            {
+              "key": "X-Powered-By",
+              "value": "Express"
+            },
+            {
+              "key": "Content-Type",
+              "value": "application/json; charset=utf-8"
+            },
+            {
+              "key": "Content-Length",
+              "value": "141"
+            },
+            {
+              "key": "ETag",
+              "value": "W/\"8d-FakNP+1r1hxvivwAyYqEpGB9fYE\""
+            },
+            {
+              "key": "Date",
+              "value": "Wed, 16 Sep 2026 01:26:25 GMT"
+            },
+            {
+              "key": "Connection",
+              "value": "keep-alive"
+            },
+            {
+              "key": "Keep-Alive",
+              "value": "timeout=5"
+            }
+          ],
+          "cookie": [],
+          "body": "{\n    \"message\": \"Books Update successfully\",\n    \"result\": {\n        \"acknowledged\": true,\n        \"modifiedCount\": 0,\n        \"upsertedId\": null,\n        \"upsertedCount\": 0,\n        \"matchedCount\": 0\n    }\n}"
+        }
+      ]
+    },
+    {
+      "name": "updateBookDynamic",
+      "request": {
+        "method": "PATCH",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n    \"filter\": {\r\n        \"author\": \"Author 1\"\r\n    },\r\n    \"update\": {\r\n        \"year\": 2026\r\n    }\r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://localhost:3000/books/updateBook",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "3000",
+          "path": [
+            "books",
+            "updateBook"
+          ]
+        }
+      },
+      "response": [
+        {
+          "name": "updateBookDynamic",
+          "originalRequest": {
+            "method": "PATCH",
+            "header": [],
+            "body": {
+              "mode": "raw",
+              "raw": "{\r\n    \"filter\": {\r\n        \"author\": \"Author 1\"\r\n    },\r\n    \"update\": {\r\n        \"year\": 2026\r\n    }\r\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://localhost:3000/books/updateBook",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "3000",
+              "path": [
+                "books",
+                "updateBook"
+              ]
+            }
+          },
+          "status": "Created",
+          "code": 201,
+          "_postman_previewlanguage": null,
+          "header": [
+            {
+              "key": "X-Powered-By",
+              "value": "Express"
+            },
+            {
+              "key": "Content-Type",
+              "value": "application/json; charset=utf-8"
+            },
+            {
+              "key": "Content-Length",
+              "value": "141"
+            },
+            {
+              "key": "ETag",
+              "value": "W/\"8d-FakNP+1r1hxvivwAyYqEpGB9fYE\""
+            },
+            {
+              "key": "Date",
+              "value": "Wed, 16 Sep 2026 01:34:02 GMT"
+            },
+            {
+              "key": "Connection",
+              "value": "keep-alive"
+            },
+            {
+              "key": "Keep-Alive",
+              "value": "timeout=5"
+            }
+          ],
+          "cookie": [],
+          "body": "{\n    \"message\": \"Books Update successfully\",\n    \"result\": {\n        \"acknowledged\": true,\n        \"modifiedCount\": 0,\n        \"upsertedId\": null,\n        \"upsertedCount\": 0,\n        \"matchedCount\": 0\n    }\n}"
+        }
+      ]
+    },
+    {
+      "name": "Find books by year range",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:3000/books/year?from=1990&to=2010",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "3000",
+          "path": [
+            "books",
+            "year"
+          ],
+          "query": [
+            {
+              "key": "from",
+              "value": "1990"
+            },
+            {
+              "key": "to",
+              "value": "2010"
+            }
+          ]
+        }
+      },
+      "response": [
+        {
+          "name": "Find books by year range",
+          "originalRequest": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "http://localhost:3000/books/year?from=1990&to=2010",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "3000",
+              "path": [
+                "books",
+                "year"
+              ],
+              "query": [
+                {
+                  "key": "from",
+                  "value": "1990"
+                },
+                {
+                  "key": "to",
+                  "value": "2010"
+                }
+              ]
+            }
+          },
+          "status": "Created",
+          "code": 201,
+          "_postman_previewlanguage": null,
+          "header": [
+            {
+              "key": "X-Powered-By",
+              "value": "Express"
+            },
+            {
+              "key": "Content-Type",
+              "value": "application/json; charset=utf-8"
+            },
+            {
+              "key": "Content-Length",
+              "value": "481"
+            },
+            {
+              "key": "ETag",
+              "value": "W/\"1e1-ulxbinyOmQUCH8PhrbTygmbGcZc\""
+            },
+            {
+              "key": "Date",
+              "value": "Wed, 16 Sep 2026 05:54:29 GMT"
+            },
+            {
+              "key": "Connection",
+              "value": "keep-alive"
+            },
+            {
+              "key": "Keep-Alive",
+              "value": "timeout=5"
+            }
+          ],
+          "cookie": [],
+          "body": "{\n    \"message\": \"Find books by year range\",\n    \"result\": [\n        {\n            \"_id\": \"6aa8e3cb1f03bc170b72e9f8\",\n            \"title\": \"Book 1\",\n            \"author\": \"Author 12\",\n            \"year\": 2005,\n            \"genres\": [\n                \"Science Fiction\"\n            ]\n        },\n        {\n            \"_id\": \"6aa8e3cb1f03bc170b72e9f9\",\n            \"title\": \"Book 2\",\n            \"author\": \"Author 2\",\n            \"year\": 1995,\n            \"genres\": [\n                \"Drama\"\n            ]\n        },\n        {\n            \"_id\": \"6aa996e5831aa5daea75b100\",\n            \"title\": \"Book4\",\n            \"author\": \"Author 1\",\n            \"year\": 2005,\n            \"genres\": [\n                \"Science Fiction\"\n            ]\n        },\n        {\n            \"_id\": \"6aa996e5831aa5daea75b101\",\n            \"title\": \"Book 5\",\n            \"author\": \"Author 2\",\n            \"year\": 1995,\n            \"genres\": [\n                \"Drama\"\n            ]\n        }\n    ]\n}"
+        }
+      ]
+    },
+    {
+      "name": "Find a Book with title",
+      "request": {
+        "method": "GET",
+        "header": []
+      },
+      "response": [
+        {
+          "name": "Find a Book with title",
+          "originalRequest": {
+            "method": "GET",
+            "header": [],
+            "body": {
+              "mode": "raw",
+              "raw": "",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://localhost:3000/books/title?title=Brave New World",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "3000",
+              "path": [
+                "books",
+                "title"
+              ],
+              "query": [
+                {
+                  "key": "title",
+                  "value": "Brave New World"
+                }
+              ]
+            }
+          },
+          "status": "Created",
+          "code": 201,
+          "_postman_previewlanguage": null,
+          "header": [
+            {
+              "key": "X-Powered-By",
+              "value": "Express"
+            },
+            {
+              "key": "Content-Type",
+              "value": "application/json; charset=utf-8"
+            },
+            {
+              "key": "Content-Length",
+              "value": "158"
+            },
+            {
+              "key": "ETag",
+              "value": "W/\"9e-mf6HUVNgysgLnq7B2bAjy5l2xiw\""
+            },
+            {
+              "key": "Date",
+              "value": "Wed, 16 Sep 2026 05:39:28 GMT"
+            },
+            {
+              "key": "Connection",
+              "value": "keep-alive"
+            },
+            {
+              "key": "Keep-Alive",
+              "value": "timeout=5"
+            }
+          ],
+          "cookie": [],
+          "body": "{\n    \"message\": \"Find a Book with title\",\n    \"result\": {\n        \"_id\": \"6aa996e5831aa5daea75b102\",\n        \"title\": \"Brave New World\",\n        \"author\": \"Author 3\",\n        \"year\": 2015,\n        \"genres\": [\n            \"Horror\"\n        ]\n    }\n}"
+        }
+      ]
+    },
+    {
+      "name": "Find books where genres",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:3000/books/genre?genre=Science Fiction",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "3000",
+          "path": [
+            "books",
+            "genre"
+          ],
+          "query": [
+            {
+              "key": "genre",
+              "value": "Science Fiction"
+            }
+          ]
+        }
+      },
+      "response": [
+        {
+          "name": "Find books where genres",
+          "originalRequest": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "http://localhost:3000/books/genre?genre=Science Fiction",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "3000",
+              "path": [
+                "books",
+                "genre"
+              ],
+              "query": [
+                {
+                  "key": "genre",
+                  "value": "Science Fiction"
+                }
+              ]
+            }
+          },
+          "status": "Created",
+          "code": 201,
+          "_postman_previewlanguage": null,
+          "header": [
+            {
+              "key": "X-Powered-By",
+              "value": "Express"
+            },
+            {
+              "key": "Content-Type",
+              "value": "application/json; charset=utf-8"
+            },
+            {
+              "key": "Content-Length",
+              "value": "404"
+            },
+            {
+              "key": "ETag",
+              "value": "W/\"194-76wdbUgOvRMYw5Pi9qC40u2vOTA\""
+            },
+            {
+              "key": "Date",
+              "value": "Wed, 16 Sep 2026 21:01:04 GMT"
+            },
+            {
+              "key": "Connection",
+              "value": "keep-alive"
+            },
+            {
+              "key": "Keep-Alive",
+              "value": "timeout=5"
+            }
+          ],
+          "cookie": [],
+          "body": "{\n    \"message\": \"Find books where genres\",\n    \"result\": [\n        {\n            \"_id\": \"6aa8e07fedc3b591947079ec\",\n            \"title\": \"Future\",\n            \"author\": \"Ali\",\n            \"year\": 2022,\n            \"genres\": [\n                \"Fantasy\",\n                \"Adventure\",\n                \"Science Fiction\"\n            ]\n        },\n        {\n            \"_id\": \"6aa8e3cb1f03bc170b72e9f8\",\n            \"title\": \"Book 1\",\n            \"author\": \"Author 12\",\n            \"year\": 2005,\n            \"genres\": [\n                \"Science Fiction\"\n            ]\n        },\n        {\n            \"_id\": \"6aa996e5831aa5daea75b100\",\n            \"title\": \"Book4\",\n            \"author\": \"Author 1\",\n            \"year\": 2005,\n            \"genres\": [\n                \"Science Fiction\"\n            ]\n        }\n    ]\n}"
+        }
+      ]
+    },
+    {
+      "name": "skip-limit",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:3000/books/skip-limit",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "3000",
+          "path": [
+            "books",
+            "skip-limit"
+          ]
+        }
+      },
+      "response": [
+        {
+          "name": "skip-limit",
+          "originalRequest": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "http://localhost:3000/books/skip-limit",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "3000",
+              "path": [
+                "books",
+                "skip-limit"
+              ]
+            }
+          },
+          "status": "Created",
+          "code": 201,
+          "_postman_previewlanguage": null,
+          "header": [
+            {
+              "key": "X-Powered-By",
+              "value": "Express"
+            },
+            {
+              "key": "Content-Type",
+              "value": "application/json; charset=utf-8"
+            },
+            {
+              "key": "Content-Length",
+              "value": "395"
+            },
+            {
+              "key": "ETag",
+              "value": "W/\"18b-uMuvNyCjSlkWLaPFDJ5rN8zgYnk\""
+            },
+            {
+              "key": "Date",
+              "value": "Wed, 16 Sep 2026 21:18:38 GMT"
+            },
+            {
+              "key": "Connection",
+              "value": "keep-alive"
+            },
+            {
+              "key": "Keep-Alive",
+              "value": "timeout=5"
+            }
+          ],
+          "cookie": [],
+          "body": "{\n    \"message\": \"Find books where genres\",\n    \"result\": [\n        {\n            \"_id\": \"6aa8e07fedc3b591947079ec\",\n            \"title\": \"Future\",\n            \"author\": \"Ali\",\n            \"year\": 2022,\n            \"genres\": [\n                \"Fantasy\",\n                \"Adventure\",\n                \"Science Fiction\"\n            ]\n        },\n        {\n            \"_id\": \"6aa996e5831aa5daea75b102\",\n            \"title\": \"Brave New World\",\n            \"author\": \"Author 3\",\n            \"year\": 2015,\n            \"genres\": [\n                \"Horror\"\n            ]\n        },\n        {\n            \"_id\": \"6aa8e3cb1f03bc170b72e9fa\",\n            \"title\": \"Book 3\",\n            \"author\": \"Author 3\",\n            \"year\": 2015,\n            \"genres\": [\n                \"Horror\"\n            ]\n        }\n    ]\n}"
+        }
+      ]
+    },
+    {
+      "name": "year-integer",
+      "request": {
+        "method": "GET",
+        "header": []
+      },
+      "response": [
+        {
+          "name": "year-integer",
+          "originalRequest": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "http://localhost:3000/books/year-integer",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "3000",
+              "path": [
+                "books",
+                "year-integer"
+              ]
+            }
+          },
+          "status": "OK",
+          "code": 200,
+          "_postman_previewlanguage": null,
+          "header": [
+            {
+              "key": "X-Powered-By",
+              "value": "Express"
+            },
+            {
+              "key": "Content-Type",
+              "value": "application/json; charset=utf-8"
+            },
+            {
+              "key": "Content-Length",
+              "value": "907"
+            },
+            {
+              "key": "ETag",
+              "value": "W/\"38b-MAfmohrHOmBXyIFuVKjOej6saxM\""
+            },
+            {
+              "key": "Date",
+              "value": "Wed, 16 Sep 2026 21:42:18 GMT"
+            },
+            {
+              "key": "Connection",
+              "value": "keep-alive"
+            },
+            {
+              "key": "Keep-Alive",
+              "value": "timeout=5"
+            }
+          ],
+          "cookie": [],
+          "body": "{\n    \"result\": [\n        {\n            \"_id\": \"6aa8e07fedc3b591947079ec\",\n            \"title\": \"Future\",\n            \"author\": \"Ali\",\n            \"year\": 2022,\n            \"genres\": [\n                \"Fantasy\",\n                \"Adventure\",\n                \"Science Fiction\"\n            ]\n        },\n        {\n            \"_id\": \"6aa8e3cb1f03bc170b72e9f8\",\n            \"title\": \"Book 1\",\n            \"author\": \"Author 12\",\n            \"year\": 2005,\n            \"genres\": [\n                \"Science Fiction\"\n            ]\n        },\n        {\n            \"_id\": \"6aa8e3cb1f03bc170b72e9f9\",\n            \"title\": \"Book 2\",\n            \"author\": \"Author 2\",\n            \"year\": 1995,\n            \"genres\": [\n                \"Drama\"\n            ]\n        },\n        {\n            \"_id\": \"6aa8e3cb1f03bc170b72e9fa\",\n            \"title\": \"Book 3\",\n            \"author\": \"Author 3\",\n            \"year\": 2015,\n            \"genres\": [\n                \"Horror\"\n            ]\n        },\n        {\n            \"_id\": \"6aa996e5831aa5daea75b100\",\n            \"title\": \"Book4\",\n            \"author\": \"Author 1\",\n            \"year\": 2005,\n            \"genres\": [\n                \"Science Fiction\"\n            ]\n        },\n        {\n            \"_id\": \"6aa996e5831aa5daea75b101\",\n            \"title\": \"Book 5\",\n            \"author\": \"Author 2\",\n            \"year\": 1995,\n            \"genres\": [\n                \"Drama\"\n            ]\n        },\n        {\n            \"_id\": \"6aa996e5831aa5daea75b102\",\n            \"title\": \"Brave New World\",\n            \"author\": \"Author 7\",\n            \"year\": 2018,\n            \"genres\": [\n                \"Horror\"\n            ]\n        },\n        {\n            \"_id\": \"6aaa20f47e4d28196f066e3c\",\n            \"title\": \"Book1\",\n            \"author\": \"Abdallah\",\n            \"year\": 2026,\n            \"genres\": [\n                \"Fantasy\",\n                \"Adventure\"\n            ]\n        }\n    ]\n}"
+        }
+      ]
+    },
+    {
+      "name": "exclude-genres",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:3000/books/exclude-genres",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "3000",
+          "path": [
+            "books",
+            "exclude-genres"
+          ]
+        }
+      },
+      "response": [
+        {
+          "name": "exclude-genres",
+          "originalRequest": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "http://localhost:3000/books/exclude-genres",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "3000",
+              "path": [
+                "books",
+                "exclude-genres"
+              ]
+            }
+          },
+          "status": "OK",
+          "code": 200,
+          "_postman_previewlanguage": null,
+          "header": [
+            {
+              "key": "X-Powered-By",
+              "value": "Express"
+            },
+            {
+              "key": "Content-Type",
+              "value": "application/json; charset=utf-8"
+            },
+            {
+              "key": "Content-Length",
+              "value": "348"
+            },
+            {
+              "key": "ETag",
+              "value": "W/\"15c-bLIavGYM7Fj6KLKIaqjs3Q5IxVs\""
+            },
+            {
+              "key": "Date",
+              "value": "Thu, 17 Sep 2026 05:58:22 GMT"
+            },
+            {
+              "key": "Connection",
+              "value": "keep-alive"
+            },
+            {
+              "key": "Keep-Alive",
+              "value": "timeout=5"
+            }
+          ],
+          "cookie": [],
+          "body": "{\n    \"result\": [\n        {\n            \"_id\": \"6aaa23d0697127860488354a\",\n            \"title\": \"Book1\",\n            \"author\": \"Abdallah 1\",\n            \"year\": \"2002200\",\n            \"genres\": [\n                \"Fantasy\",\n                \"Adventure\"\n            ]\n        },\n        {\n            \"_id\": \"6aab27187e0a029e668d94d4\",\n            \"title\": \"Book 5\",\n            \"author\": \"Author 2\",\n            \"year\": 1995,\n            \"genres\": [\n                \"Fantasy\"\n            ]\n        },\n        {\n            \"_id\": \"6aab27447e0a029e668d94d5\",\n            \"title\": \"Book 11\",\n            \"author\": \"Author 9\",\n            \"year\": 1999,\n            \"genres\": [\n                \"Adventure\"\n            ]\n        }\n    ]\n}"
+        }
+      ]
+    },
+    {
+      "name": "before-year",
+      "request": {
+        "method": "GET",
+        "header": []
+      },
+      "response": [
+        {
+          "name": "before-year",
+          "originalRequest": {
+            "method": "DELETE",
+            "header": [],
+            "url": {
+              "raw": "http://localhost:3000/books/before-year",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "3000",
+              "path": [
+                "books",
+                "before-year"
+              ]
+            }
+          },
+          "status": "OK",
+          "code": 200,
+          "_postman_previewlanguage": null,
+          "header": [
+            {
+              "key": "X-Powered-By",
+              "value": "Express"
+            },
+            {
+              "key": "Content-Type",
+              "value": "application/json; charset=utf-8"
+            },
+            {
+              "key": "Content-Length",
+              "value": "49"
+            },
+            {
+              "key": "ETag",
+              "value": "W/\"31-jtrzsPlbwpjn4t9eGArSlGSd+H8\""
+            },
+            {
+              "key": "Date",
+              "value": "Thu, 17 Sep 2026 06:04:02 GMT"
+            },
+            {
+              "key": "Connection",
+              "value": "keep-alive"
+            },
+            {
+              "key": "Keep-Alive",
+              "value": "timeout=5"
+            }
+          ],
+          "cookie": [],
+          "body": "{\n    \"result\": {\n        \"acknowledged\": true,\n        \"deletedCount\": 2\n    }\n}"
+        }
+      ]
+    },
+    {
+      "name": "aggregate1",
+      "request": {
+        "method": "GET",
+        "header": []
+      },
+      "response": [
+        {
+          "name": "aggregate1",
+          "originalRequest": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "http://localhost:3000/books/aggregate1",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "3000",
+              "path": [
+                "books",
+                "aggregate1"
+              ]
+            }
+          },
+          "status": "OK",
+          "code": 200,
+          "_postman_previewlanguage": null,
+          "header": [
+            {
+              "key": "X-Powered-By",
+              "value": "Express"
+            },
+            {
+              "key": "Content-Type",
+              "value": "application/json; charset=utf-8"
+            },
+            {
+              "key": "Content-Length",
+              "value": "706"
+            },
+            {
+              "key": "ETag",
+              "value": "W/\"2c2-fhWlWdQ8TyzEkpZSMAPSUA+lcGI\""
+            },
+            {
+              "key": "Date",
+              "value": "Thu, 17 Sep 2026 06:10:14 GMT"
+            },
+            {
+              "key": "Connection",
+              "value": "keep-alive"
+            },
+            {
+              "key": "Keep-Alive",
+              "value": "timeout=5"
+            }
+          ],
+          "cookie": [],
+          "body": "{\n    \"result\": [\n        {\n            \"_id\": \"6aaa20f47e4d28196f066e3c\",\n            \"title\": \"Book1\",\n            \"author\": \"Abdallah\",\n            \"year\": 2026,\n            \"genres\": [\n                \"Horror\",\n                \"Science Fiction\"\n            ]\n        },\n        {\n            \"_id\": \"6aa8e07fedc3b591947079ec\",\n            \"title\": \"Future\",\n            \"author\": \"Ali\",\n            \"year\": 2022,\n            \"genres\": [\n                \"Fantasy\",\n                \"Adventure\",\n                \"Science Fiction\"\n            ]\n        },\n        {\n            \"_id\": \"6aa996e5831aa5daea75b102\",\n            \"title\": \"Brave New World\",\n            \"author\": \"Author 7\",\n            \"year\": 2018,\n            \"genres\": [\n                \"Horror\"\n            ]\n        },\n        {\n            \"_id\": \"6aa8e3cb1f03bc170b72e9fa\",\n            \"title\": \"Book 3\",\n            \"author\": \"Author 3\",\n            \"year\": 2015,\n            \"genres\": [\n                \"Horror\"\n            ]\n        },\n        {\n            \"_id\": \"6aa8e3cb1f03bc170b72e9f8\",\n            \"title\": \"Book 1\",\n            \"author\": \"Author 12\",\n            \"year\": 2005,\n            \"genres\": [\n                \"Science Fiction\"\n            ]\n        },\n        {\n            \"_id\": \"6aa996e5831aa5daea75b100\",\n            \"title\": \"Book4\",\n            \"author\": \"Author 1\",\n            \"year\": 2005,\n            \"genres\": [\n                \"Science Fiction\"\n            ]\n        }\n    ]\n}"
+        }
+      ]
+    },
+    {
+      "name": "aggregate2",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:3000/books/aggregate2",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "3000",
+          "path": [
+            "books",
+            "aggregate2"
+          ]
+        }
+      },
+      "response": [
+        {
+          "name": "aggregate2",
+          "originalRequest": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "http://localhost:3000/books/aggregate2",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "3000",
+              "path": [
+                "books",
+                "aggregate2"
+              ]
+            }
+          },
+          "status": "OK",
+          "code": 200,
+          "_postman_previewlanguage": null,
+          "header": [
+            {
+              "key": "X-Powered-By",
+              "value": "Express"
+            },
+            {
+              "key": "Content-Type",
+              "value": "application/json; charset=utf-8"
+            },
+            {
+              "key": "Content-Length",
+              "value": "321"
+            },
+            {
+              "key": "ETag",
+              "value": "W/\"141-2Ow8K/6yDZp+zB4S2madKm6wlpc\""
+            },
+            {
+              "key": "Date",
+              "value": "Thu, 17 Sep 2026 06:10:58 GMT"
+            },
+            {
+              "key": "Connection",
+              "value": "keep-alive"
+            },
+            {
+              "key": "Keep-Alive",
+              "value": "timeout=5"
+            }
+          ],
+          "cookie": [],
+          "body": "{\n    \"result\": [\n        {\n            \"title\": \"Book1\",\n            \"author\": \"Abdallah\",\n            \"year\": 2026\n        },\n        {\n            \"title\": \"Future\",\n            \"author\": \"Ali\",\n            \"year\": 2022\n        },\n        {\n            \"title\": \"Brave New World\",\n            \"author\": \"Author 7\",\n            \"year\": 2018\n        },\n        {\n            \"title\": \"Book 3\",\n            \"author\": \"Author 3\",\n            \"year\": 2015\n        },\n        {\n            \"title\": \"Book 1\",\n            \"author\": \"Author 12\",\n            \"year\": 2005\n        },\n        {\n            \"title\": \"Book4\",\n            \"author\": \"Author 1\",\n            \"year\": 2005\n        }\n    ]\n}"
+        }
+      ]
+    },
+    {
+      "name": "aggregate3",
+      "request": {
+        "method": "GET",
+        "header": []
+      },
+      "response": [
+        {
+          "name": "aggregate3",
+          "originalRequest": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "http://localhost:3000/books/aggregate3",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "3000",
+              "path": [
+                "books",
+                "aggregate3"
+              ]
+            }
+          },
+          "status": "OK",
+          "code": 200,
+          "_postman_previewlanguage": null,
+          "header": [
+            {
+              "key": "X-Powered-By",
+              "value": "Express"
+            },
+            {
+              "key": "Content-Type",
+              "value": "application/json; charset=utf-8"
+            },
+            {
+              "key": "Content-Length",
+              "value": "962"
+            },
+            {
+              "key": "ETag",
+              "value": "W/\"3c2-G+rrKtCmvhQCm3XSCOEyKDdyhsc\""
+            },
+            {
+              "key": "Date",
+              "value": "Thu, 17 Sep 2026 06:19:18 GMT"
+            },
+            {
+              "key": "Connection",
+              "value": "keep-alive"
+            },
+            {
+              "key": "Keep-Alive",
+              "value": "timeout=5"
+            }
+          ],
+          "cookie": [],
+          "body": "{\n    \"result\": [\n        {\n            \"_id\": \"6aaa20f47e4d28196f066e3c\",\n            \"title\": \"Book1\",\n            \"author\": \"Abdallah\",\n            \"year\": 2026,\n            \"genres\": \"Horror\"\n        },\n        {\n            \"_id\": \"6aaa20f47e4d28196f066e3c\",\n            \"title\": \"Book1\",\n            \"author\": \"Abdallah\",\n            \"year\": 2026,\n            \"genres\": \"Science Fiction\"\n        },\n        {\n            \"_id\": \"6aa8e07fedc3b591947079ec\",\n            \"title\": \"Future\",\n            \"author\": \"Ali\",\n            \"year\": 2022,\n            \"genres\": \"Fantasy\"\n        },\n        {\n            \"_id\": \"6aa8e07fedc3b591947079ec\",\n            \"title\": \"Future\",\n            \"author\": \"Ali\",\n            \"year\": 2022,\n            \"genres\": \"Adventure\"\n        },\n        {\n            \"_id\": \"6aa8e07fedc3b591947079ec\",\n            \"title\": \"Future\",\n            \"author\": \"Ali\",\n            \"year\": 2022,\n            \"genres\": \"Science Fiction\"\n        },\n        {\n            \"_id\": \"6aa996e5831aa5daea75b102\",\n            \"title\": \"Brave New World\",\n            \"author\": \"Author 7\",\n            \"year\": 2018,\n            \"genres\": \"Horror\"\n        },\n        {\n            \"_id\": \"6aa8e3cb1f03bc170b72e9fa\",\n            \"title\": \"Book 3\",\n            \"author\": \"Author 3\",\n            \"year\": 2015,\n            \"genres\": \"Horror\"\n        },\n        {\n            \"_id\": \"6aa8e3cb1f03bc170b72e9f8\",\n            \"title\": \"Book 1\",\n            \"author\": \"Author 12\",\n            \"year\": 2005,\n            \"genres\": \"Science Fiction\"\n        },\n        {\n            \"_id\": \"6aa996e5831aa5daea75b100\",\n            \"title\": \"Book4\",\n            \"author\": \"Author 1\",\n            \"year\": 2005,\n            \"genres\": \"Science Fiction\"\n        }\n    ]\n}"
+        }
+      ]
+    },
+    {
+      "name": "aggregate4",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:3000/books/aggregate4",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "3000",
+          "path": [
+            "books",
+            "aggregate4"
+          ]
+        }
+      },
+      "response": [
+        {
+          "name": "aggregate4",
+          "originalRequest": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "http://localhost:3000/books/aggregate4",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "3000",
+              "path": [
+                "books",
+                "aggregate4"
+              ]
+            }
+          },
+          "status": "OK",
+          "code": 200,
+          "_postman_previewlanguage": "json",
+          "header": [
+            {
+              "key": "x-powered-by",
+              "value": "Express"
+            },
+            {
+              "key": "content-type",
+              "value": "application/json; charset=utf-8"
+            },
+            {
+              "key": "content-length",
+              "value": "1229"
+            },
+            {
+              "key": "etag",
+              "value": "W/\"4cd-MNLT+02CpaDq4ew06Nn8S4cG8aA\""
+            },
+            {
+              "key": "date",
+              "value": "Thu, 17 Sep 2026 18:41:42 GMT"
+            },
+            {
+              "key": "connection",
+              "value": "keep-alive"
+            },
+            {
+              "key": "keep-alive",
+              "value": "timeout=5"
+            }
+          ],
+          "cookie": [],
+          "body": "{\n  \"result\": [\n    {\n      \"_id\": \"6aa8e07fedc3b591947079ec\",\n      \"title\": \"Future\",\n      \"author\": \"Ali\",\n      \"year\": 2022,\n      \"genres\": [\n        \"Fantasy\",\n        \"Adventure\",\n        \"Science Fiction\"\n      ],\n      \"logs\": []\n    },\n    {\n      \"_id\": \"6aa8e3cb1f03bc170b72e9f8\",\n      \"title\": \"Book 1\",\n      \"author\": \"Author 12\",\n      \"year\": 2005,\n      \"genres\": [\n        \"Science Fiction\"\n      ],\n      \"logs\": [\n        {\n          \"_id\": \"6aa9ea84a2dfe5dacbd50097\",\n          \"book_id\": \"6aa8e3cb1f03bc170b72e9f8\",\n          \"action\": \"borrowed\"\n        }\n      ]\n    },\n    {\n      \"_id\": \"6aa8e3cb1f03bc170b72e9fa\",\n      \"title\": \"Book 3\",\n      \"author\": \"Author 3\",\n      \"year\": 2015,\n      \"genres\": [\n        \"Horror\"\n      ],\n      \"logs\": []\n    },\n    {\n      \"_id\": \"6aa996e5831aa5daea75b100\",\n      \"title\": \"Book4\",\n      \"author\": \"Author 1\",\n      \"year\": 2005,\n      \"genres\": [\n        \"Science Fiction\"\n      ],\n      \"logs\": []\n    },\n    {\n      \"_id\": \"6aa996e5831aa5daea75b102\",\n      \"title\": \"Brave New World\",\n      \"author\": \"Author 7\",\n      \"year\": 2018,\n      \"genres\": [\n        \"Horror\"\n      ],\n      \"logs\": []\n    },\n    {\n      \"_id\": \"6aaa20f47e4d28196f066e3c\",\n      \"title\": \"Book1\",\n      \"author\": \"Abdallah\",\n      \"year\": 2026,\n      \"genres\": [\n        \"Horror\",\n        \"Science Fiction\"\n      ],\n      \"logs\": []\n    },\n    {\n      \"_id\": \"6aaa23d0697127860488354a\",\n      \"title\": \"Book1\",\n      \"author\": \"Abdallah 1\",\n      \"year\": \"2002200\",\n      \"genres\": [\n        \"Fantasy\",\n        \"Adventure\"\n      ],\n      \"logs\": []\n    },\n    {\n      \"_id\": \"6aab82fd5e51355eb701787c\",\n      \"title\": \"Book1\",\n      \"author\": \"Ali\",\n      \"year\": 1937,\n      \"genres\": [\n        \"Fantasy\",\n        \"Adventure\"\n      ],\n      \"logs\": []\n    },\n    {\n      \"_id\": \"6aab83097d18c78934b119db\",\n      \"title\": \"Book 11\",\n      \"author\": \"Author 9\",\n      \"year\": 1999,\n      \"genres\": [\n        \"Adventure\"\n      ],\n      \"logs\": []\n    }\n  ]\n}"
+        }
+      ]
+    },
+    {
+      "name": "aggregate5",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:3000/books/aggregate5",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "3000",
+          "path": [
+            "books",
+            "aggregate5"
+          ]
+        }
+      },
+      "response": [
+        {
+          "name": "aggregate5",
+          "originalRequest": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "http://localhost:3000/books/aggregate5",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "3000",
+              "path": [
+                "books",
+                "aggregate5"
+              ]
+            }
+          },
+          "status": "OK",
+          "code": 200,
+          "_postman_previewlanguage": "json",
+          "header": [
+            {
+              "key": "x-powered-by",
+              "value": "Express"
+            },
+            {
+              "key": "content-type",
+              "value": "application/json; charset=utf-8"
+            },
+            {
+              "key": "content-length",
+              "value": "228"
+            },
+            {
+              "key": "etag",
+              "value": "W/\"e4-GL9QNZg0/HUzc+ErGkPtp1fcsZI\""
+            },
+            {
+              "key": "date",
+              "value": "Thu, 17 Sep 2026 18:45:39 GMT"
+            },
+            {
+              "key": "connection",
+              "value": "keep-alive"
+            },
+            {
+              "key": "keep-alive",
+              "value": "timeout=5"
+            }
+          ],
+          "cookie": [],
+          "body": "{\n  \"result\": [\n    {\n      \"_id\": \"6aa9ea84a2dfe5dacbd50097\",\n      \"book_id\": \"6aa8e3cb1f03bc170b72e9f8\",\n      \"action\": \"borrowed\",\n      \"books\": [\n        {\n          \"_id\": \"6aa8e3cb1f03bc170b72e9f8\",\n          \"title\": \"Book 1\",\n          \"author\": \"Author 12\",\n          \"year\": 2005,\n          \"genres\": [\n            \"Science Fiction\"\n          ]\n        }\n      ]\n    }\n  ]\n}"
+        }
+      ]
+    }
+  ]
+}
